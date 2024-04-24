@@ -225,6 +225,7 @@
    - Mensaje adicional en los resultados.
 </ul>
 &nbsp;
+
 ## Créditos
 
 - **Desarrollador**: [Carlos Valencia Sánchez]
