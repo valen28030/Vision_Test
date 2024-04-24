@@ -228,8 +228,8 @@
 
 ## Créditos
 
-- **Desarrollador**: [Carlos Valencia Sánchez]
-- **Diseñador de App**: [Carlos Valencia Sánchez]
+- **Desarrollador**: Carlos Valencia Sánchez
+- **Diseñador de App**: Carlos Valencia Sánchez
 
 &nbsp;
 ## Contacto
