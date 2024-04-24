@@ -224,3 +224,16 @@
    - Las dioptrías del ojo derecho.
    - Mensaje adicional en los resultados.
 </ul>
+&nbsp;
+## Créditos
+
+- **Desarrollador**: [Carlos Valencia Sánchez]
+- **Diseñador de App**: [Carlos Valencia Sánchez]
+
+&nbsp;
+## Contacto
+
+Para obtener soporte técnico, reportar errores o proporcionar comentarios, no dudes en contactar.
+
+---
+Este documento proporciona una visión general de una posible app, incluyendo sus características, tecnología utilizada, requisitos del sistema, instrucciones y créditos. Para obtener más información detallada sobre el desarrollo y funcionamiento de la app, consulta la documentación interna o comunícate con el desarrollador.
