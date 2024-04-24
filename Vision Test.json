@@ -1,0 +1,58 @@
+{
+    "configuracion_general": {
+      "aplicacion": "Examen de Vista",
+      "version": "1.0",
+      "descripcion": "Aplicación para determinar dioptrías a través de pruebas oftalmológicas.",
+      "puntos_importantes": [
+        "Medición de la distancia",
+        "Reconocimiento facial",
+        "Botones con opciones de respuesta",
+        "Test de Snellen",
+        "Test de Landolt",
+        "Test de daltonismo",
+        "Resultados"
+      ]
+    },
+    
+    "medicion_distancia": {
+      "metodo": "Cámara del dispositivo móvil",
+      "silueta": "Líneas discontinuas para posicionar el busto",
+      "distancia_optotipos": "Proporcional a 6 metros en consulta",
+      "tamanio_letras_proporcional": true
+    },
+    
+    "reconocimiento_facial": {
+      "paso1": "Usuario colocado, se tapa el ojo derecho",
+      "paso2": "Reconocimiento mediante inteligencia artificial",
+      "paso3": "Repetir para ojo izquierdo",
+      "necesario_para": "Test Snellen"
+    },
+    
+    "botones_respuesta": {
+      "test_snellen": ["Sí", "No"],
+      "test_landolt": ["Sí", "No"],
+      "test_daltonismo": ["Respuesta A", "Respuesta B", "Respuesta C"]
+    },
+    
+    "test_snellen": {
+      "paso_inicial": "Pantalla en blanco para reseteo",
+      "letras_aleatorias": true,
+      "realizar_prueba_otro_ojo": true
+    },
+    
+    "test_landolt": {
+      "descripcion": "Identificación de anillos de Landolt",
+      "botones_respuesta": ["Sí", "No"]
+    },
+    
+    "test_daltonismo": {
+      "descripcion": "Visionado de placas de color Ishihara",
+      "opciones_respuesta": ["Número correcto", "Opción incorrecta"]
+    },
+    
+    "resultados": {
+      "criterios_oftalmologia": true,
+      "mensaje_adicional": "Los resultados son orientativos. Consulte a una clínica para confirmar."
+    }
+  }
+  
