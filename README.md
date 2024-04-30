@@ -187,52 +187,125 @@
    - Descripción de la aplicación.
    - Puntos clave de la aplicación.
      
-&nbsp;
+```sh
+"configuracion_general": {
+  "aplicacion": "Examen de Vista",
+  "version": "1.0",
+  "descripcion": "Aplicación para determinar dioptrías a través de pruebas oftalmológicas.",
+  "puntos_importantes": [
+    "Medición de la distancia",
+    "Reconocimiento facial",
+    "Botones con opciones de respuesta",
+    "Test de Snellen",
+    "Test de Landolt",
+    "Test de daltonismo",
+    "Resultados"
+  ]
+},
+```   
+&nbsp;&nbsp;
+
 **2.** Empiezo a crear cada uno de los puntos clave.
-     
-&nbsp;
+
+&nbsp;&nbsp;
+
 **3.** Creé un objeto para la configuración de la medición de distancia:
    - El método por el cual obtendremos esta medición será la cámara del dispositivo móvil.
    - La silueta para representar de forma gráfica la posición del usuario.
    - La distancia de medición.
    - El tamaño de las letras, proporcional a la distancia.
      
-&nbsp;
+```sh
+"medicion_distancia": {
+  "metodo": "Cámara del dispositivo móvil",
+  "silueta": "Líneas discontinuas para posicionar el busto",
+  "distancia_optotipos": "Proporcional a 6 metros en consulta",
+  "tamanio_letras_proporcional": true
+},
+```   
+&nbsp;&nbsp;
+
 **4.** Creé un objeto para la configuración del reconocimiento facial:
    - La acción que se llevará a cabo para el primer paso.
    - La acción que se llevará a cabo para el segundo paso.
    - La acción que se llevará a cabo para el tercer paso.
    - Indicación de que el reconocimiento facial es necesario para el Test Snellen.
      
-&nbsp;
+```sh
+"reconocimiento_facial": {
+  "paso1": "Usuario colocado, se tapa el ojo derecho",
+  "paso2": "Reconocimiento mediante inteligencia artificial",
+  "paso3": "Repetir para ojo izquierdo",
+  "necesario_para": "Test Snellen"
+},
+```   
+&nbsp;&nbsp;
+
 **5.** Creé un objeto para la configuración de los botones de respuesta:
    - Las opciones de respuesta para el Test Snellen.
    - Las opciones de respuesta para el Test Landolt.
    - Las opciones de respuesta para el Test de Daltonismo.
      
-&nbsp;
+```sh
+"botones_respuesta": {
+  "test_snellen": ["Sí", "No"],
+  "test_landolt": ["Sí", "No"],
+  "test_daltonismo": ["Respuesta A", "Respuesta B", "Respuesta C"]
+},
+```   
+&nbsp;&nbsp;
+
 **6.** Creé un objeto para la configuración del Test Snellen:
    - El paso inicial del Test Snellen.
    - Un indicador de si las letras se presentan de manera aleatoria.
    - Un indicador de que hay que repetir la prueba con el otro ojo.
      
-&nbsp;
+```sh
+"test_snellen": {
+  "paso_inicial": "Pantalla en blanco para reseteo",
+  "letras_aleatorias": true,
+  "realizar_prueba_otro_ojo": true
+},
+```   
+&nbsp;&nbsp;
+
 **7.** Creé un objeto para la configuración del Test Landolt:
    - Descripción del Test Landolt.
    - Las opciones de respuesta para el Test Landolt mediante botones.
      
-&nbsp;
+```sh
+"test_landolt": {
+  "descripcion": "Identificación de anillos de Landolt",
+  "botones_respuesta": ["Sí", "No"]
+},
+```   
+&nbsp;&nbsp;
+
 **8.** Creé un objeto para la configuración del Test de Daltonismo:
    - Descripción del Test de Daltonismo.
    - Opciones de respuesta para el Test de Daltonismo.
      
-&nbsp;
+```sh
+"test_daltonismo": {
+  "descripcion": "Visionado de placas de color Ishihara",
+  "opciones_respuesta": ["Número correcto", "Opción incorrecta"]
+},
+```   
+&nbsp;&nbsp;
+
 **9.** Creé un objeto para la configuración de los resultados:
    - Descripción de los resultados.
    - Advertencia sobre la necesidad de consultar a un oftalmólogo.
    - Recomendación para la frecuencia de uso de la aplicación.
 </ul>
-&nbsp;
+     
+```sh
+"resultados": {
+  "criterios_oftalmologia": true,
+  "mensaje_adicional": "Los resultados son orientativos. Consulte a una clínica para confirmar."
+}
+```   
+&nbsp;&nbsp;
 
 ## Créditos
 
